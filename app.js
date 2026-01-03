@@ -1,20 +1,20 @@
 const negocio = {
-  nombre: 'Distribuidora Altavista',
-  telefono: '5215512345678',
+  nombre: 'Distribuidora MaKabra',
+  telefono: '59896405927',
   pedidoMinimo: 1500,
 };
 
-const formatoMoneda = new Intl.NumberFormat('es-MX', {
+const formatoMoneda = new Intl.NumberFormat('es-UYU', {
   style: 'currency',
-  currency: 'MXN',
+  currency: 'UYU',
 });
 
 const productosData = [
   {
-    id: 'cafe-arabica-kg',
-    titulo: 'Café arábica tostado',
-    descripcion: 'Tostado medio, ideal para espresso en cafeterías de alto volumen.',
-    precio: 860,
+    id: 'Patricia-1L',
+    titulo: 'Cerveza Patricia 1L*12',
+    descripcion: 'Cajon 12 Unidades',
+    precio: 1630,
     imagen:
       'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80',
     paquete: 'Caja con 8 bolsas de 1 kg',
